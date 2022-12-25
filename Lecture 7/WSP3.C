@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+//WSP3
+main()
+{
+ int i,k,j;
+ clrscr();
+    for(i=5;i>=1;i--)
+    {
+      for(k=i;k>1;k--)
+      {
+      printf("_");
+      }
+      for(j=i;j<=5;j++)
+      {
+      printf("%d",j);
+      }
+      printf("\n");
+    }
+    getch();
+}
